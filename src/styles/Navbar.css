@@ -1,0 +1,83 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.navbar { 
+  width: 100%;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.box-title {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: "Lucida Handwriting", "Ink Free" ;
+  font-style:italic;
+  font-size: 50px;
+  font-weight: 900;
+  color:black;
+}
+
+.title:hover {
+  text-transform: none;
+  text-decoration: none;
+  color:black;
+}
+
+.btn-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  color: black;
+  font-weight: 750;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn-drop {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: black;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.btn-drop:hover, .btn-btn:hover, .btn-drop2:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 750;
+}
+
+
+

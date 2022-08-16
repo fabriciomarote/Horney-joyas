@@ -1,0 +1,146 @@
+{
+    "products": [ 
+            {
+                "name": "Anillo 1",
+                "price": 140,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo1.jpg",
+                "images": [       
+                    "images/anillo1.jpg",
+                    "images/anillo1-2.jpg",
+                    "images/anillo1-3.jpg"
+                ]
+            },
+            {
+                "name": "Anillo 2",
+                "price": 140,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo2.jpg",
+                "images": [       
+                    "images/anillo2.jpg"
+                ]
+            },
+            {
+                "name": "Anillo 3",
+                "price": 140,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo3.jpg",
+                "images": [       
+                    "images/anillo3.jpg"
+                ]
+            },
+            {
+                "name": "Anillo 4",
+                "price": 10,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo4.jpg",
+                "images": [       
+                    "images/anillo4.jpg"
+                ]
+            },
+            {
+                "name": "Anillo 5",
+                "price": 20,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo5.jpg",
+                "images": [       
+                    "images/anillo5.jpg"
+                ]
+            },
+            {
+                "name": "Anillo 6",
+                "price": 50,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo6.jpg",
+                "images": [       
+                    "images/anillo6.jpg"
+                ]
+            },
+            {
+                "name": "Anillo 7",
+                "price": 60,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo7.jpg",
+                "images": [       
+                    "images/anillo7.jpg"
+                ]
+            },
+            {
+                "name": "Anillo 8",
+                "price": 100,
+                "description": "",
+                "type": "anillo",
+                "mainImage": "images/anillo8.jpg",
+                "images": [       
+                    "images/anillo8.jpg"
+                ]
+            },
+        {
+            "name": "Arito 1",
+            "price": 100,
+            "description": "",
+            "type": "arito",
+            "mainImage": "images/arito1.jpg",
+            "images": [       
+                "images/arito1.jpg"
+            ]
+        },
+        {
+            "name": "Pulsera 1",
+            "price": 150,
+            "description": "",
+            "type": "pulsera",
+            "mainImage": "images/pulsera1.jpg",
+            "images": [       
+                "images/pulsera1.jpg",
+                "images/pulsera1-2.jpg"
+            ]
+        },
+        {
+            "name": "Pulsera 2",
+            "price": 150,
+            "description": "",
+            "type": "pulsera",
+            "mainImage": "images/pulsera2.jpg",
+            "images": [       
+                "images/pulsera2.jpg"
+            ]
+        },
+        {
+            "name": "Piercing 1",
+            "price": 100,
+            "description": "",
+            "type": "piercing",
+            "mainImage": "",
+            "images": [       
+            ]
+        },
+        {
+            "name": "Dije 1",
+            "price": 130,
+            "description": "",
+            "type": "dije",
+            "mainImage": "images/colgante1.jpg",
+            "images": [       
+                "images/colgante1.jpg"
+            ]
+        },
+        {
+            "name": "Collar 1",
+            "price": 200,
+            "description": "",
+            "type": "collar",
+            "mainImage":  "images/cadena1.jpg",
+            "images": [       
+                "images/cadena1.jpg"
+            ]
+        }
+    ] 
+}

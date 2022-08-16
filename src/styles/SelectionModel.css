@@ -1,0 +1,110 @@
+.selectionModel-container {
+    display: grid;
+    align-items: center;
+    line-height: 15px;
+    margin: 5px;
+    background-color: yellow;
+}
+
+.image-selection {
+    display: flex;
+    width: 450px;
+    padding: 20px;
+    margin-bottom: -10px;
+}
+
+.image {
+    width: 430px;
+    height: 600px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-description {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 30px;
+    margin-bottom: 5px;
+    width: 450px;
+}
+
+.name-selection, .selection-name {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.name-selection :hover {
+    text-decoration: none;
+    color: black;
+}
+
+.precio-selection {
+    font-size: 18px;
+    font-weight: 750;
+    color: black;
+}
+
+.link-selection {
+    font-weight: 900;
+}
+
+.link {
+   text-decoration: none;
+   text-transform: none;
+   color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 1200px) {
+    .box-description {
+        padding: 0px 0px 0px 30px;
+    }
+    .link {
+        margin: 0px 0px 0px 30px;
+    }
+    .precio-selection {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .box-description {
+        padding: 0px 0px 0px 40px;
+    }
+    .link {
+        margin: 0px 0px 0px 40px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .box-description {
+        padding: 0px 0px 0px 40px;
+    }
+    .link {
+        margin: 0px 0px 0px 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .image {
+        width: 400px;
+        height: 500px;
+    }
+    .box-description {
+        padding: 0px 50px 0px 40px;
+    }
+    .link {
+        margin: 0px 0px 0px 40px;
+    }
+    .selectionModel-container {
+        padding: 0px 0px 0px 10px;
+    }
+    .precio-selection {
+        margin-right: 0px;
+    }
+}

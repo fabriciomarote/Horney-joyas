@@ -1,0 +1,90 @@
+.navbar {
+  background-color: white;
+}
+
+.home-content {
+  background-color: yellowgreen;
+  margin: 10px;
+}
+
+.home-selections-box {
+  display: grid;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box-categories {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.h5 {
+  font-weight: 700;
+}
+
+.btn-drop2 {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.selections-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.buttons-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  align-content: center;
+  margin-top: 100px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.select-btn {
+   border-radius: 2px;
+   width: 200px;
+   height: 50px;
+   padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .selections-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .selections-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .selections-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .selections-box {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+
+  .buttons-box {
+    justify-content: left;
+  }
+}
