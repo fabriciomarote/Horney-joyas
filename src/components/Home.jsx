@@ -22,7 +22,7 @@ const Home = () => {
         }).catch(error => {
           console.log(error)
         });  
-  }, [data]);
+  }, []);
   
     return (
         <>
@@ -31,9 +31,9 @@ const Home = () => {
                    <Navbar/>
                 </div> 
                 <div className="home-content">  
-                    <div className='home-selections-box'>
-                        {allProducts.map((product, idx) => {
-                            return <SelectionModel key={product.name} selection={product} />
+                    <div className='selections-box'>
+                        {allProducts.map((product) => {
+                            return <SelectionModel key={product.id} selection={product} />
                         })}
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 {
     "products": [ 
             {
+                "id": 1,
                 "name": "Anillo 1",
                 "price": 140,
                 "description": "",
@@ -13,6 +14,7 @@
                 ]
             },
             {
+                "id": 2,
                 "name": "Anillo 2",
                 "price": 140,
                 "description": "",
@@ -23,6 +25,7 @@
                 ]
             },
             {
+                "id": 3,
                 "name": "Anillo 3",
                 "price": 140,
                 "description": "",
@@ -33,6 +36,7 @@
                 ]
             },
             {
+                "id": 4,
                 "name": "Anillo 4",
                 "price": 10,
                 "description": "",
@@ -43,6 +47,7 @@
                 ]
             },
             {
+                "id": 5,
                 "name": "Anillo 5",
                 "price": 20,
                 "description": "",
@@ -53,6 +58,7 @@
                 ]
             },
             {
+                "id": 6,
                 "name": "Anillo 6",
                 "price": 50,
                 "description": "",
@@ -63,6 +69,7 @@
                 ]
             },
             {
+                "id": 7,
                 "name": "Anillo 7",
                 "price": 60,
                 "description": "",
@@ -73,6 +80,7 @@
                 ]
             },
             {
+                "id": 8,
                 "name": "Anillo 8",
                 "price": 100,
                 "description": "",
@@ -82,65 +90,71 @@
                     "images/anillo8.jpg"
                 ]
             },
-        {
-            "name": "Arito 1",
-            "price": 100,
-            "description": "",
-            "type": "arito",
-            "mainImage": "images/arito1.jpg",
-            "images": [       
-                "images/arito1.jpg"
-            ]
-        },
-        {
-            "name": "Pulsera 1",
-            "price": 150,
-            "description": "",
-            "type": "pulsera",
-            "mainImage": "images/pulsera1.jpg",
-            "images": [       
-                "images/pulsera1.jpg",
-                "images/pulsera1-2.jpg"
-            ]
-        },
-        {
-            "name": "Pulsera 2",
-            "price": 150,
-            "description": "",
-            "type": "pulsera",
-            "mainImage": "images/pulsera2.jpg",
-            "images": [       
-                "images/pulsera2.jpg"
-            ]
-        },
-        {
-            "name": "Piercing 1",
-            "price": 100,
-            "description": "",
-            "type": "piercing",
-            "mainImage": "",
-            "images": [       
-            ]
-        },
-        {
-            "name": "Dije 1",
-            "price": 130,
-            "description": "",
-            "type": "dije",
-            "mainImage": "images/colgante1.jpg",
-            "images": [       
-                "images/colgante1.jpg"
-            ]
-        },
-        {
-            "name": "Collar 1",
-            "price": 200,
-            "description": "",
-            "type": "collar",
-            "mainImage":  "images/cadena1.jpg",
-            "images": [       
-                "images/cadena1.jpg"
-            ]
-        }
+            {
+                "id": 9,
+                "name": "Arito 1",
+                "price": 100,
+                "description": "",
+                "type": "arito",
+                "mainImage": "images/arito1.jpg",
+                "images": [       
+                    "images/arito1.jpg"
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Pulsera 1",
+                "price": 150,
+                "description": "",
+                "type": "pulsera",
+                "mainImage": "images/pulsera1.jpg",
+                "images": [       
+                    "images/pulsera1.jpg",
+                    "images/pulsera1-2.jpg"
+                ]
+            },
+            {
+                "id": 11,
+                "name": "Pulsera 2",
+                "price": 150,
+                "description": "",
+                "type": "pulsera",
+                "mainImage": "images/pulsera2.jpg",
+                "images": [       
+                    "images/pulsera2.jpg"
+                ]
+            },
+            {
+                "id": 12,
+                "name": "Piercing 1",
+                "price": 100,
+                "description": "",
+                "type": "piercing",
+                "mainImage": "",
+                "images": [       
+                ]
+            },
+            {
+                "id": 13,
+                "name": "Dije 1",
+                "price": 130,
+                "description": "",
+                "type": "dije",
+                "mainImage": "images/colgante1.jpg",
+                "images": [       
+                    "images/colgante1.jpg"
+                ]
+            },
+            {
+                "id": 14,
+                "name": "Collar 1",
+                "price": 200,
+                "description": "",
+                "type": "collar",
+                "mainImage":  "images/cadena1.jpg",
+                "images": [       
+                    "images/cadena1.jpg"
+                ]
+            }
     ] 
 }
