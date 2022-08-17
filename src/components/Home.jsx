@@ -26,10 +26,7 @@ const Home = () => {
   
     return (
         <>
-            <div className="home-container">
-                <div className="navbar-home">
-                   <Navbar/>
-                </div> 
+            <div className="container">
                 <div className="home-content">  
                     <div className='selections-box'>
                         {allProducts.map((product) => {

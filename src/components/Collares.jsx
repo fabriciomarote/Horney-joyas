@@ -8,8 +8,7 @@ const Collares = () => {
 
     return (
       <>
-        <div className="rings-container">
-          <Navbar/>
+        <div className="container">
           <div className="rings-content">
             <div className='selections-box'>
               {collares.map((collar, idx) => {

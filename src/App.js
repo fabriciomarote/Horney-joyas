@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Rings from './components/Rings';
 import Hoops from './components/Hoops';
@@ -13,6 +14,9 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <div className="navbar">
+        <Navbar/>
+      </div> 
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/anillos" element={<Rings/>} />

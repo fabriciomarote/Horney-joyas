@@ -8,8 +8,7 @@ const Dijes = () => {
 
     return (
       <>
-        <div className="rings-container">
-          <Navbar/>
+        <div className="container">
           <div className="rings-content">
             <div className='selections-box'>
               {dijes.map((dije, idx) => {

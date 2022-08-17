@@ -8,8 +8,7 @@ const Pulseras = () => {
       
     return (
       <>
-        <div className="rings-container">
-          <Navbar/>
+        <div className="container">
           <div className="rings-content">
             <div className='selections-box'>
               {pulseras.map((pulsera, idx) => {

@@ -8,8 +8,7 @@ const Hoops = () => {
     
     return (
       <>
-      <div className="hoops-container">
-        <Navbar/>
+      <div className="container">
         <div className="hoops-content">
           <div className='selections-box'>
             {hoops.map((hoop, idx) => {

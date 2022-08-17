@@ -1,4 +1,3 @@
-import Navbar from './Navbar';
 import SelectionModel from './SelectionModel';
 import { getRings, getHoops } from '../api';
 
@@ -57,13 +56,9 @@ const Rings = () => {
 
     return (
       <>
-        <div className="rings-container">
-          <div className="navbar-home">
-            <Navbar/>
-          </div> 
-          <div className="rings-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            
-            <div className='selections-box col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+        <div className="container">
+          <div className="rings-content">
+            <div className='selections-box'>
               {rings.map((ring) => {
                   return <SelectionModel key={ring.id} selection={ring} product={"anillos"}/>
                 })}
