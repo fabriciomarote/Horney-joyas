@@ -2,13 +2,15 @@
     display: grid;
     align-items: center;
     line-height: 15px;
-    margin: 5px;
+    background-color: yellowgreen;
+    margin: 10px;
+    width: 440px;
 }
 
 .image-selection {
     display: flex;
     width: 450px;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: -10px;
 }
 
@@ -61,13 +63,13 @@
 
 @media (min-width: 1200px) {
     .box-description {
-        padding: 0px 0px 0px 30px;
+        padding: 5px 0px 0px 20px;
     }
     .link {
-        margin: 0px 0px 0px 30px;
+        margin: 0px 0px 0px 20px;
     }
     .precio-selection {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 }
 
@@ -95,15 +97,12 @@
         height: 500px;
     }
     .box-description {
-        padding: 0px 50px 0px 40px;
+        padding: 5px 50px 0px 20px;
     }
     .link {
-        margin: 0px 0px 0px 40px;
+        margin: 0px 0px 0px 20px;
     }
     .selectionModel-container {
         padding: 0px 0px 0px 10px;
-    }
-    .precio-selection {
-        margin-right: 0px;
     }
 }
