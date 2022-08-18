@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../horney-joyas.png"
+import logo from "../horney-joyas2.png"
 import '../styles/Navbar.css';
 
 const Navbar = () => {

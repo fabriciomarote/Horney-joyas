@@ -6,10 +6,6 @@
   padding: 120px 0px 0px 0px;
 }
 
-.navbar {
-  
-}
-
 .box-logo {
   display: flex;
   flex-direction: row;
@@ -58,6 +54,7 @@ body {
   background-color: white;
   position: relative;
   padding: 20px;
+  margin-left: -15px;
 
 }
 
@@ -110,13 +107,13 @@ body {
     padding: 50px;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(157, 153, 57, 0.374);
+    background-color: rgba(143, 62, 136, 0.547);
   }
   .nav > .nav-btn > label > span {
     display: block;
     width: 40px;
     height: 10px;
-    border-top: 2px solid rgb(111, 111, 111);
+    border-top: 3px solid rgb(47, 46, 46);
   }
   .nav > .nav-links {
     position: absolute;
