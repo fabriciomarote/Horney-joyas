@@ -57,7 +57,7 @@ const Rings = () => {
     return (
       <>
         <div className="container">
-          <div className="rings-content">
+          <div className="content">
             <div className='selections-box'>
               {rings.map((ring) => {
                   return <SelectionModel key={ring.id} selection={ring} product={"anillos"}/>

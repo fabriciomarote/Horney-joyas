@@ -1,10 +1,9 @@
 import React from 'react';
-import '../styles/Home.css';
-import Navbar from './Navbar';
+import { useState, useEffect } from 'react';
 import { getAllTake3 } from '../api';
 import SelectionModel from './SelectionModel';
 import Api from '../api2';
-import { useState, useEffect } from 'react';
+import '../styles/Home.css';
 
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
     const [data, setData] = useState();
 
     useEffect(() => {
-        Api.getData()
+        Api.getData()   
         .then(response => {
           console.log(response.data.values);
           setData(response.data.result)
@@ -27,7 +26,7 @@ const Home = () => {
     return (
         <>
             <div className="container">
-                <div className="home-content">  
+                <div className="content">  
                     <div className='selections-box'>
                         {allProducts.map((product) => {
                             return <SelectionModel key={product.id} selection={product} />
