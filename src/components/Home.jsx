@@ -5,7 +5,6 @@ import SelectionModel from './SelectionModel';
 import Api from '../api2';
 import '../styles/Home.css';
 
-
 const Home = () => {
 
     const allProducts = getAllTake3();

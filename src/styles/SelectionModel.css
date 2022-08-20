@@ -19,6 +19,12 @@
     border-radius: 10px;
 }
 
+.image:hover {
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(156, 117, 193);
+}
+
 .box-description {
     display: flex;
     justify-content: space-between;
